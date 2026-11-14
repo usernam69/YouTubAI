@@ -15,7 +15,7 @@ const COPY: Record<Kind, { title: string; sub: string; empty: string }> = {
   },
   watchlater: {
     title: "Watch later",
-    sub: "Saved for a quieter moment.",
+    sub: "Films you saved for later.",
     empty: "Tap Save on any film to queue it here.",
   },
   liked: {
@@ -25,7 +25,7 @@ const COPY: Record<Kind, { title: string; sub: string; empty: string }> = {
   },
   playlists: {
     title: "Playlists",
-    sub: "Built automatically from what you have saved and liked.",
+    sub: "Grouped by genre from what you saved and liked.",
     empty: "Save or like a few films and a playlist appears here.",
   },
 };

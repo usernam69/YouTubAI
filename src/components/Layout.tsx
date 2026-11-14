@@ -299,7 +299,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {open && (
             <div style={{ padding: "16px 20px 0", color: "#5c5c5c", fontSize: 11.5, lineHeight: 1.7 }}>
               <div style={{ fontWeight: 700, color: "#7a7a7a", marginBottom: 4 }}>YouTubAI</div>
-              Every film here is an open movie, streamed from the Internet Archive under a Creative Commons licence.
+              Every film here is in the public domain or under a Creative Commons licence, streamed from the Internet Archive.
               <div style={{ marginTop: 8 }}>
                 <button className="yt-linkbtn" style={{ color: "#6f6f6f" }} onClick={() => nav("/features")}>Features Lab →</button>
               </div>

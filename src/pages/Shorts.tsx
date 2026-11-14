@@ -220,7 +220,7 @@ export default function Shorts() {
         </div>
 
         <div style={{ textAlign: "center", color: "#8f8f8f", fontSize: 12, marginTop: 10 }}>
-          Scroll for more · muted by default · every clip is an open-licence film
+          Scroll for more · muted by default · every clip is public domain or Creative Commons
         </div>
       </div>
     </div>

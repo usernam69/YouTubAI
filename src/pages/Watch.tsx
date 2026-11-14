@@ -232,7 +232,7 @@ export default function Watch() {
           {/* ---------------- comments ---------------- */}
           <section style={{ marginTop: 26 }}>
             <h2 style={{ fontSize: 17, fontWeight: 700 }}>
-              {248 + comments.length} Comments
+              {comments.length + 3} Comments
             </h2>
 
             <div style={{ display: "flex", gap: 12, marginTop: 14 }}>
@@ -271,7 +271,7 @@ export default function Watch() {
             {[
               { id: "seed-1", who: "@renderfarmer", text: `The compositing on this still holds up. ${v.year} and it looks better than most of what ships today.`, at: 0 },
               { id: "seed-2", who: "@eevee_enjoyer", text: "Watched this on a phone at 2am with headphones. Not a single frame wasted.", at: 0 },
-              { id: "seed-3", who: "@openmovie_archive", text: `Free, open, and still the best demo of what an open pipeline can do. Licence: ${v.license}.`, at: 0 },
+              { id: "seed-3", who: "@openmovie_archive", text: `Watch it for the pipeline as much as the film. Licence: ${v.license}.`, at: 0 },
             ].map(c => {
               const own = comments.find(x => x.id === c.id);
               if (own) return null;

@@ -148,7 +148,7 @@ export default function Search() {
         <div className="yt-card" style={{ padding: 36, textAlign: "center" }}>
           <div style={{ fontWeight: 700, fontSize: 16 }}>No matches</div>
           <div style={{ color: "#aaa", fontSize: 13.5, marginTop: 6, lineHeight: 1.55 }}>
-            Nothing matched “{q}”. Try a studio like <em>Blender</em>, a mood like <em>horror</em>, or a year like <em>2010</em>.
+            Nothing matched “{q}”. Try a studio (Blender), a genre (horror), or a year (2010).
           </div>
         </div>
       ) : (

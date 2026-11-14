@@ -163,7 +163,7 @@ export default function Home() {
         <div className="yt-card" style={{ padding: 40, textAlign: "center" }}>
           <div style={{ fontWeight: 700, fontSize: 16 }}>Nothing in {active} yet</div>
           <div style={{ color: "#aaa", fontSize: 13.5, marginTop: 6 }}>
-            These are all the open films we have licensed so far.
+            That is every film in the catalogue so far.
           </div>
           <button className="yt-btn yt-btn-primary" style={{ marginTop: 14 }} onClick={() => setCat("All")}>
             Show everything
